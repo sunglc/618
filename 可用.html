@@ -1,0 +1,530 @@
+<style type="text/css">.Content{
+	width: 100%;
+	min-width: 1200px;
+	background-color:#d5364e; 
+}
+.bottom2 {
+    background: #EDEDED;
+    min-width: 1200px;
+    margin-top: -20px;
+}
+.glc_dynamics-center{width: 100%;min-width: 1200px;}
+
+.glc_container{
+  width: 100%;
+  min-width: 1200px;
+  height: 100%;
+  margin: auto;
+  background-color: #d5364e;
+}
+.glc_banner{
+  height: 600px;
+  width: 100%;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+.glc_img {
+    width:100%;
+    height:600px;
+    min-width:1200px;
+    display:block;
+    position: relative; 
+    margin:auto;
+    float: left;
+  }
+.glc_img:before { 
+  content: ""; 
+  position: absolute; 
+  width:200px; 
+  height: 100%; 
+  top: 0; 
+  left: -150px; 
+  overflow: hidden;
+  background: -webkit-linear-gradient(left, rgba(255,255,255,0)0, rgba(255,255,255,.2)50%, rgba(255,255,255,0)100%);
+  background:        -moz-linear-gradient(left, rgba(255,255,255,0)0, rgba(255,255,255,.2)50%, rgba(255,255,255,0)100%);
+  background:        -o-linear-gradient(left, rgba(255,255,255,0)0, rgba(255,255,255,.2)50%, rgba(255,255,255,0)100%);
+  background:           linear-gradient(left, rgba(255,255,255,0)0, rgba(255,255,255,.2)50%, rgba(255,255,255,0)100%);
+
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,.2)), color-stop(100%, rgba(255,255,255,0)));
+              -webkit-transform: skewX(-25deg);
+  background: -moz-gradient(linear, left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,.2)), color-stop(100%, rgba(255,255,255,0)));
+              -moz-transform: skewX(-25deg); 
+  background: -o-gradient(linear, left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,.2)), color-stop(100%, rgba(255,255,255,0)));
+              -o-transform: skewX(-25deg);
+  background:    gradient(linear, left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,.2)), color-stop(100%, rgba(255,255,255,0)));
+                 transform: skewX(-25deg);  
+
+}
+.glc_img:hover:before { 
+  left: 150%; 
+  transition: left 3s ease 0s; 
+}
+
+.glc_u_content{
+  width: 100%;
+  min-width: 1200px;
+  height: 395px;
+  margin-top: 20px;
+}
+.glc_u_left{
+  width: 25%;
+  height: 395px;
+  margin-left: 23%;
+  float: left;
+}
+.glc_u_right{
+  width: 25%;
+  height: 395px;
+  margin-right: 23%;
+  float: right;
+}
+.glc_u10{
+  width:100%;
+  height:120px;
+  margin-left: 0;
+  float: left;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+  z-index: -1;
+}
+.glc_u26{
+  float: right;
+  width:100%;
+  height:120px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+}
+.glc_u68{
+  margin-top:18px; 
+  float: left;
+  width:100%;
+  height:120px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+}
+.glc_u98{
+  margin-top:18px;
+  float: right;
+  width:100%;
+  height:120px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+}
+.glc_u158{
+  margin-top:18px; 
+  float: left;  
+  width:100%;
+  height:120px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+}
+.glc_u258{
+  margin-top:18px;
+  float: right;
+  width:100%;
+  height:120px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+}
+.glc_title01{
+  margin-top:20px;
+  width:100%;
+  min-width: 1200px;
+  height:38px;
+  background-color: #d5364e;
+  font-family:'方正粗谭黑简体';
+  font-size:17px;
+  font-style:normal;
+  color:#FFFFFF;
+  text-align:center;	
+}
+.glc_title02{
+  margin-top:20px; 
+  width:100%;
+  min-width: 1200px;
+  height:38px;
+  font-family:'方正粗谭黑简体 ';
+  font-size:17px;
+  font-style:normal;
+  color:#FFFFFF;
+  text-align:center;	
+}
+.glc_rule{
+  margin-top:20px;
+  height: 500px;
+  background: url("/upload/default/columnimg/20170626123701.png") no-repeat scroll center top;
+  background-size: cover;
+}
+.glc_u10_top{
+	position: relative;
+
+}
+.glc_voucher{
+  margin-left: 12%;
+  margin-top: 24px;
+  width: 33%;
+  float: left;
+  color: #891d34;
+  font-family: 'SimHei';
+  font-style: normal;
+  font-size: 20px;
+  display: inline;
+  font-style: normal;
+  white-space: nowrap;
+  /*text-overflow:ellipsis;*/
+  position: absolute;
+  overflow: hidden;
+}
+.glc_invest{
+  margin-left: 37%;
+  margin-top: 20px;
+  width:63%;
+  float: left;
+  color: #891d34;
+  font-family: 'Microsoft YaHei';
+  font-size: 23px;
+  font-style: normal;
+  font-style: normal;
+	white-space:nowrap;
+	/*text-overflow:ellipsis;*/
+	position: absolute;
+	overflow: hidden;
+}
+.glc_time{
+  margin-left: 37%;
+  margin-top: 50px;
+  width:63%;
+  color: #891d34;
+  font-family: 'Microsoft YaHei';
+  font-size: 12px;
+	font-style: normal;
+	white-space:nowrap;
+	/*text-overflow:ellipsis;*/
+	overflow: hidden;
+}
+.glc_much{
+  margin-left: 30%;
+  margin-top: -27px;
+  color: #891d34;
+  font-family: 'Microsoft YaHei';
+  font-size: 45px;
+  font-style: normal;
+}
+.glc_u10_button{
+	position: relative;
+}
+.glc_u10_button .glc_button_left{
+	float: left;
+	width: 37%;
+}
+.glc_u10_button .glc_button_right{
+	float: right;
+	width: 63%;
+
+}
+.glc_yuan{
+  color: #891d34;
+	font-family: 'Microsoft YaHei';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	margin-top: 24px;
+	position: absolute;
+}
+.glc_imme{
+	font-family: 'Microsoft YaHei';
+	font-size: 18px;
+	font-style: normal;	
+}
+.glc_btn{
+	margin-left: 30%;
+	top:  -4px;
+	width: 35%;
+	border-radius: 5px;
+	background: #eaa41a;
+	border: 1px solid #eaa41a;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 35px;
+	letter-spacing: .5px;
+	margin: 0;
+	outline: none;
+	padding: 0 25px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;
+	white-space:nowrap;
+	/*text-overflow:ellipsis;*/
+	overflow: hidden;
+	position: absolute;
+	
+}
+.glc_btn-shiny::after{
+	content: ' ';
+	position: absolute;
+	top: -50%;
+	right: -50%;
+	bottom: -50%;
+	left: -50%;
+	background:-webkit-linear-gradient(to bottom,rgba(229,172,142,0),rgba(255,255,255,.5) 50%,rgba(229,172,142,0));
+	background:   -moz-linear-gradient(to bottom,rgba(229,172,142,0),rgba(255,255,255,.5) 50%,rgba(229,172,142,0));
+	background:    -ms-linear-gradient(to bottom,rgba(229,172,142,0),rgba(255,255,255,.5) 50%,rgba(229,172,142,0));
+	background:     -o-linear-gradient(to bottom,rgba(229,172,142,0),rgba(255,255,255,.5) 50%,rgba(229,172,142,0));		
+	background:        linear-gradient(to bottom,rgba(229,172,142,0),rgba(255,255,255,.5) 50%,rgba(229,172,142,0));
+	-webkit-transform: rotateZ(60deg) translate(-5em,9em);
+	   -moz-transform: rotateZ(60deg) translate(-5em,9em);
+	    -ms-transform: rotateZ(60deg) translate(-5em,9em);
+	     -o-transform: rotateZ(60deg) translate(-5em,9em);
+	        transform: rotateZ(60deg) translate(-5em,9em);
+}
+.glc_btn-shiny:hover::after, .glc_btn-shiny:focus::after{
+	-webkit-animation: sheen 1s forwards;
+	   -moz-animation: sheen 1s forwards;
+	    -ms-animation: sheen 1s forwards;
+	     -o-animation: sheen 1s forwards;
+          	animation: sheen 1s forwards;
+}
+@-webkit-keyframes sheen{
+	100%{
+		-webkit-transform: rotateZ(60deg) translate(1em,-9em);
+		   -moz-transform: rotateZ(60deg) translate(1em,-9em);
+		    -ms-transform: rotateZ(60deg) translate(1em,-9em);
+		     -o-transform: rotateZ(60deg) translate(1em,-9em);
+		        transform: rotateZ(60deg) translate(1em,-9em);
+	}
+@-moz-keyframes sheen{
+	100%{
+		-webkit-transform: rotateZ(60deg) translate(1em,-9em);
+		   -moz-transform: rotateZ(60deg) translate(1em,-9em);
+		    -ms-transform: rotateZ(60deg) translate(1em,-9em);
+		     -o-transform: rotateZ(60deg) translate(1em,-9em);
+		        transform: rotateZ(60deg) translate(1em,-9em);
+	}
+@-o-keyframes sheen{
+	100%{
+		-webkit-transform: rotateZ(60deg) translate(1em,-9em);
+		   -moz-transform: rotateZ(60deg) translate(1em,-9em);
+		    -ms-transform: rotateZ(60deg) translate(1em,-9em);
+		     -o-transform: rotateZ(60deg) translate(1em,-9em);
+		        transform: rotateZ(60deg) translate(1em,-9em);
+	}
+@keyframes sheen{
+	100%{
+		-webkit-transform: rotateZ(60deg) translate(1em,-9em);
+		   -moz-transform: rotateZ(60deg) translate(1em,-9em);
+		    -ms-transform: rotateZ(60deg) translate(1em,-9em);
+		     -o-transform: rotateZ(60deg) translate(1em,-9em);
+		        transform: rotateZ(60deg) translate(1em,-9em);
+	}
+}</style>
+<div class="glc_dynamics-center">
+	<div class="glc_container"><!-- banner -->
+		<div class="glc_banner">
+			<a href="https://www.ruizehui.com/loaninfo/openLoan.htm" class="glc_img" target="_blank"><img src="/upload/default/columnimg/20170626123650.png" style="background:no-repeat scroll center top;background-size: cover;width: 100%;height:600px;min-width:1200px;" alt="" /></a>
+		</div><!-- 注册福利 来就送 -->
+		<div class="glc_title01">
+			<h1>
+				注册福利 来就送
+			</h1>
+		</div>
+		<div class="glc_u_content"><!-- 左边部分 -->
+			<div class="glc_u_left"><!-- 10元 -->
+				<div class="glc_u10">
+					<div class="glc_u10_top">
+						<p class="glc_voucher">
+							礼券金额
+						</p>
+						<p class="glc_invest">
+							单笔投资1000元
+						</p>
+					</div>
+					<div class="glc_u10_center">
+						<p class="glc_time">
+							礼券有效期30天 使用项目1-12个月
+						</p>
+					</div>
+					<div class="glc_u10_button">
+						<div class="glc_button_left">
+							<p class="glc_much">
+								10<span class="glc_yuan">元</span>
+							</p>
+						</div>
+						<div class="glc_button_right">
+							<button class="glc_btn glc_btn-shiny" onclick="window.open('https://www.ruizehui.com/loaninfo/openLoan.htm')">
+								<span class="glc_imme">立即投资&gt;</span>
+							</button>
+						</div>
+					</div>
+				</div><!-- 68元 -->
+				<div class="glc_u68">
+					<div class="glc_u10_top">
+						<p class="glc_voucher">
+							礼券金额
+						</p>
+						<p class="glc_invest">
+							单笔投资15000元
+						</p>
+					</div>
+					<div class="glc_u10_center">
+						<p class="glc_time">
+							礼券有效期30天 使用项目1-12个月
+						</p>
+					</div>
+					<div class="glc_u10_button">
+						<div class="glc_button_left">
+							<p class="glc_much">
+								68<span class="glc_yuan">元</span>
+							</p>
+						</div>
+						<div class="glc_button_right">
+							<button class="glc_btn glc_btn-shiny" onclick="window.open('https://www.ruizehui.com/loaninfo/openLoan.htm')">
+								<span class="glc_imme">立即投资&gt;</span>
+							</button>
+						</div>
+					</div>
+				</div><!-- 158元 -->
+				<div class="glc_u158">
+					<div class="glc_u10_top">
+						<p class="glc_voucher">
+							礼券金额
+						</p>
+						<p class="glc_invest">
+							单笔投资30000元
+						</p>
+					</div>
+					<div class="glc_u10_center">
+						<p class="glc_time">
+							礼券有效期60天 使用项目3-6个月
+						</p>
+					</div>
+					<div class="glc_u10_button">
+						<div class="glc_button_left">
+							<p class="glc_much">
+								158<span class="glc_yuan">元</span>
+							</p>
+						</div>
+						<div class="glc_button_right">
+							<button class="glc_btn glc_btn-shiny" onclick="window.open('https://www.ruizehui.com/loaninfo/openLoan.htm')">
+								<span class="glc_imme">立即投资&gt;</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div><!-- 右边部分 -->
+			<div class="glc_u_right"><!-- 26元 -->
+				<div class="glc_u26">
+					<div class="glc_u10_top">
+						<p class="glc_voucher">
+							礼券金额
+						</p>
+						<p class="glc_invest">
+							单笔投资5000元
+						</p>
+					</div>
+					<div class="glc_u10_center">
+						<p class="glc_time">
+							礼券有效期30天 使用项目1-12个月
+						</p>
+					</div>
+					<div class="glc_u10_button">
+						<div class="glc_button_left">
+							<p class="glc_much">
+								26<span class="glc_yuan">元</span>
+							</p>
+						</div>
+						<div class="glc_button_right">
+							<button class="glc_btn glc_btn-shiny" onclick="window.open('https://www.ruizehui.com/loaninfo/openLoan.htm')">
+								<span class="glc_imme">立即投资&gt;</span>
+							</button>
+						</div>
+					</div>
+				</div><!-- 98元 -->
+				<div class="glc_u98">
+					<div class="glc_u10_top">
+						<p class="glc_voucher">
+							礼券金额
+						</p>
+						<p class="glc_invest">
+							单笔投资25000元
+						</p>
+					</div>
+					<div class="glc_u10_center">
+						<p class="glc_time">
+							礼券有效期60天 使用项目3-6个月
+						</p>
+					</div>
+					<div class="glc_u10_button">
+						<div class="glc_button_left">
+							<p class="glc_much">
+								98<span class="glc_yuan">元</span>
+							</p>
+						</div>
+						<div class="glc_button_right">
+							<button class="glc_btn glc_btn-shiny" onclick="window.open('https://www.ruizehui.com/loaninfo/openLoan.htm')">
+								<span class="glc_imme">立即投资&gt;</span>
+							</button>
+						</div>
+					</div>
+				</div><!-- 258元 -->
+				<div class="glc_u258">
+					<div class="glc_u10_top">
+						<p class="glc_voucher">
+							礼券金额
+						</p>
+						<p class="glc_invest">
+							单笔投资50000元
+						</p>
+					</div>
+					<div class="glc_u10_center">
+						<p class="glc_time">
+							礼券有效期60天 使用项目7-12个月
+						</p>
+					</div>
+					<div class="glc_u10_button">
+						<div class="glc_button_left">
+							<p class="glc_much">
+								258<span class="glc_yuan">元</span>
+							</p>
+						</div>
+						<div class="glc_button_right">
+							<button class="glc_btn glc_btn-shiny" onclick="window.open('https://www.ruizehui.com/loaninfo/openLoan.htm')">
+								<span class="glc_imme">立即投资&gt;</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- 活动规则 -->
+		<div class="glc_title02">
+			<h1>
+				活动规则
+			</h1>
+		</div><!-- rule -->
+		<div class="glc_rule">
+		</div>
+	</div>
+</div>
